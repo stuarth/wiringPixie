@@ -1,6 +1,6 @@
 # wiringPi(xie)
 
-Control a RaspberryPI's GPIO with [Pixie](github.com/pixie-lang/pixie)
+Control a RaspberryPI's GPIO with [Pixie](http://github.com/pixie-lang/pixie)
 
 ```clj
 (require wiring-pixie.gpio :refer :all)
