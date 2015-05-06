@@ -7,19 +7,19 @@
 
   ;; CONSTS
   ;; modes
-  (f/defglobal INPUT)
-  (f/defglobal OUTPUT)
-  (f/defglobal LOW)
-  (f/defglobal HIGH)
+  (f/defconst INPUT)
+  (f/defconst OUTPUT)
+  (f/defconst LOW)
+  (f/defconst HIGH)
 
   ;; pull up / down / none
-  (f/defglobal PUD_OFF)
-  (f/defglobal PUD_DOWN)
-  (f/defglobal PUD_UP)
+  (f/defconst PUD_OFF)
+  (f/defconst PUD_DOWN)
+  (f/defconst PUD_UP)
 
   ;; pwm
-  (f/defglobal PWM_MODE_MS)
-  (f/defglobal PWM_MODE_BAL)
+  (f/defconst PWM_MODE_MS)
+  (f/defconst PWM_MODE_BAL)
   
   ;; FUNCTIONS
   (f/defcfn wiringPiSetup)
