@@ -5,7 +5,7 @@ Control a RaspberryPI's GPIO with [Pixie](http://github.com/pixie-lang/pixie)
 ```clj
 (require wiring-pixie.gpio :refer :all)
 
-(def pin 7)
+(def pin 7) ;; note the Addressing Pins section below!
 
 (wiringPiSetup)         ;; required first!
 (pinMode pin OUTPUT)    ;; pin to OUTPUT
@@ -15,7 +15,7 @@ Control a RaspberryPI's GPIO with [Pixie](http://github.com/pixie-lang/pixie)
 
 Add wiringPixie to your project.edn's dependencies
 
-`[stuarth/wiringPixie "0.1.0-alpha"]`
+`[stuarth/wiringPixie "0.2.0-alpha"]`
 
 Follow the [instructions on wiringPi's site](http://wiringpi.com/download-and-install/) to install wiringPi on your Raspberry Pi.
 
