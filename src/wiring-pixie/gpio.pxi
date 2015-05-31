@@ -33,4 +33,16 @@
   (f/defcfn digitalWrite)
   (f/defcfn pwmWrite)
   (f/defcfn analogRead)
-  (f/defcfn analogWrite))
+  (f/defcfn analogWrite)
+
+  ;; pwm
+  (f/defcfn pwmSetMode)
+  (f/defcfn pwmSetRange)
+  (f/defcfn pwmSetClock)
+  (f/defcfn gpioClockSet)
+
+  ;; additional arduino fns
+  (f/defcfn delay)
+  (f/defcfn delayMicroseconds)
+  (f/defcfn millis)
+  (f/defcfn micros))

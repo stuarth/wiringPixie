@@ -1,4 +1,3 @@
 {:name wiringPixie
  :version "0.1.0-alpha"
- :description "Control a RaspberryPI's GPIO with Pixie"
- :dependencies []}
+ :description "Control a RaspberryPI's GPIO with Pixie"}
